@@ -75,8 +75,12 @@ export default function ProductCard({ product }: { product: Product }) {
 
       {/* Dimensions */}
       <p className='text-sm text-gray-500 mt-2'>
-        <strong>Dimensions:</strong> {product.dimensions.width}"W ×{' '}
-        {product.dimensions.height}"H × {product.dimensions.depth}"D
+        <strong>Dimensions:</strong> {product.dimensions.width}
+        {`"W × `}
+        {product.dimensions.height}
+        {`"H × `}
+        {product.dimensions.depth}
+        {`"D`}
       </p>
 
       {/* Description */}

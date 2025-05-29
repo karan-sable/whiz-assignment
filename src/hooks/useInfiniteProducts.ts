@@ -65,7 +65,7 @@ export function useInfiniteProducts(disabled = false) {
     return () => {
       if (current) observer.unobserve(current)
     }
-  }, [loading, hasMore, disabled])
+  }, [loading, hasMore, disabled, fetchProducts])
 
   return { products, loading, hasMore, loaderRef, error } // 🆕 return error
 }

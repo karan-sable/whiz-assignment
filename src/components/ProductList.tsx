@@ -46,8 +46,9 @@ export default function ProductList() {
       </div>
       {isFiltering && !loading && filteredProducts.length === 0 && (
         <p className='text-center text-gray-600 mt-8'>
-          No products found matching "
-          <span className='font-semibold'>{debouncedFilter}</span>".
+          {` No products found matching "`}
+          <span className='font-semibold'>{debouncedFilter}</span>
+          {`".`}
         </p>
       )}
 

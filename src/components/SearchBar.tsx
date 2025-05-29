@@ -18,7 +18,7 @@ const SearchBarComponent: React.FC<SearchBarProps> = ({
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
             placeholder='Search products...'
-            className='w-full px-4 py-2 pr-10 border border-blue-200 rounded-full shadow-md focus:outline-none focus:ring focus:ring-blue-400 bg-white'
+            className='w-full px-4 py-2 pr-10 border border-blue-200 rounded-full shadow-md focus:outline-none focus:ring focus:ring-blue-400 bg-white placeholder-gray-500'
           />
           {filter && (
             <div className='absolute right-5 top-1/2 transform -translate-y-1/2 group'>

@@ -76,7 +76,7 @@ export default function ProductList() {
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className='fixed bottom-5 right-5 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full shadow-lg transition cursor-pointer'
         >
-          ↑ Back to Top
+          ↑ Top
         </button>
       )}
     </div>
